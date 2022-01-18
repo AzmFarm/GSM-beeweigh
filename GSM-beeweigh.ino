@@ -22,13 +22,13 @@ const char simPIN[]   = "";
 
 // Server details
 // The server variable can be just a domain name or it can have a subdomain. It depends on the service you are using
-const char server[] = "t963139h.beget.tech";                // domain name: example.com, unikumuchaly.ru, etc
+const char server[] = "server.com";                // domain name: example.com, unikumuchaly.ru, etc
 const char resource[] = "/post-data.php";         // resource path, for example: /Beehives/post-data.php
 const int  port = 80;                             // server port number 443
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file /post-data.php also needs to have the same key 
-String apiKeyValue = "tPmAT5Ab3j7F9";
+String apiKeyValue = "apiKeyValue";
 
 // TTGO T-Call pins
 #define MODEM_RST            5
